@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Movie_Reminder",
+    "name": "Movie Reminder",
     "slug": "Movie_Reminder",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Logotipo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Inicio0.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Logotipo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abrahan.rueda.Movie_Reminder"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Logotipo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3fee2f1d-ff10-4570-a57f-6cef4eb23723"
+      }
     }
   }
 }
